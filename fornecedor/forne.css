@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: century;
+    
+}
+a{
+
+    text-decoration: none;
+    color:#121212;
+}
+header{
+
+    border-bottom:2px solid #121212;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+
+body{
+
+    background-color: #fabfa4;
+}
+
+.conteudo{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+
+}
+
+article h1{
+
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+article h2{
+
+    padding: 10px 0;
+
+}
+
+article a{
+
+    font-size: 10px;
+}
+
+.acessar{
+
+    border: 2px solid #121212;
+    height: 40px;
+    width: 180px;
+    background-color: #00000000;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 15px;
+    color:#121212;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century;
+}
+
+.acessar2{
+
+    border: 2px solid #121212;
+    height: 30px;
+    width: 100px;
+    background-color: #00000000;
+    font-weight: bold;
+    margin: 5px;
+    font-size:10px;
+    color:#121212;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century;
+}
+
+footer{
+
+    background-color: #121212;
+    height: 300px;
+}
+
+/*estilização do formulário*/
+
+.form{
+
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pequenininho{
+
+    width: 20%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.fino{
+
+    width: 20%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.medio{
+
+    width: 25%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.largo{
+
+    width: 50%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.total{
+
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.espacamento{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*estilização do botão*/
+
+button{
+
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 0;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+
+
+th{
+
+    border-bottom: 2px solid black;
+    gap: none;
+}
+
+.tabela{
+
+    border-collapse: collapse;
+    
+}
+
+.tabela tr{
+
+    border: 2px solid rgba(255, 255, 255, 0);
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
+
+.tabela td{
+
+    background-color: #3f518300;
+    width: 320px;
+    height: 30px;
+    padding: 15px;
+}
+
+/*centralizar tabela*/
+
+.centralizar{
+
+    padding: 0 200px;
+}
