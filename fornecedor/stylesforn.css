@@ -1,0 +1,318 @@
+* {
+    box-sizing: border-box;
+    font-family: century;
+}
+
+/*Personalização de texto*/
+a {
+    text-decoration: none;
+    color: #121212;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px; 
+}
+
+.form-container p{
+
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+/*Personalização de página (divs, body, header, article, footer*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fabfa4;
+}
+
+header {
+    border-bottom: 2px solid #121212;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+article {
+    min-height: 500px;
+}
+
+.article-index nav{
+
+    padding: 0 5%;
+}
+
+.nav-direita {
+
+    display: flex;
+    justify-content: right;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+/*Personalização da tabela*/
+.tabela-container {
+    width: 90%;
+    max-width: 100%;
+    margin: 10px 20px;
+    overflow-x: auto;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #42424216;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+    font-size: 14px;
+}
+
+.tabela th,
+.tabela td {
+    padding: 6px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.tabela th {
+    color: black;
+}
+
+/*Personalização do formulario*/
+
+.form-container {
+    width: 70%;
+    max-width: 100%;
+}
+
+/*Inputs*/
+.pequenininho{
+
+    width: 5%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.fino{
+
+    width: 20%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.medio{
+
+    width: 35%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.total{
+
+    width: 100%;
+    padding: 8px 8px;
+    margin: 8px 0;
+    border: 2px solid #efefef;
+    box-sizing: border-box;
+}
+
+.tirarseta::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/*Personalização de botões*/
+.espacamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botoes-tabela {
+    width: 10%;
+}
+
+.botaotabela {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    display: inline-block;
+    border: 2px solid black;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial;
+}
+
+.botaotabela i {
+    padding-right: 5px;
+}
+
+.editar {
+    background-color: #2196F3;
+}
+
+.editar:hover {
+    background-color: #0d76cb;
+}
+
+.excluir {
+    background-color: #f44336;
+}
+
+.excluir:hover {
+    background-color: #a4241b;
+}
+
+.botaolink {
+    border: 2px solid #121212;
+    height: 40px;
+    width: 180px;
+    background-color: #00000000;
+    font-weight: bold;
+    margin: 5px;
+    font-size: 15px;
+    color: #121212;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century;
+}
+
+.botaolink i {
+    margin-right: 5px;
+}
+
+.botaoform{
+
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 8px 0;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+
+/*Responsividade*/
+@media screen and (max-width: 900px) {
+
+    .pequenininho, .fino, .medio, .total{
+        padding: 5px 2px;
+        margin: 5px 2px;
+        border: 2px solid #efefef;
+        box-sizing: border-box;
+        font-size: 10px;
+    }
+
+    .medio{
+
+        width:30%;
+    }
+
+    .fino{
+
+        width:15%;
+    }
+
+    .pequenininho{
+
+        width: 7%;
+    }
+
+    .article-index nav{
+
+        padding: 0;
+    }
+
+    .form-container {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .form-container p{
+
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tabela-container {
+
+        width: 100%;
+        margin: 5px;
+    }
+
+    .tabela {
+        font-size: 12px;
+    }
+
+    .botaotabela {
+        width: 60px;
+        height: 30px;
+        margin: 5px;
+        display: inline-block;
+        border: 2px solid black;
+        cursor: pointer;
+        font-size: 10px;
+        font-family: arial;
+    }
+
+    .botaolink{
+
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .botaolink i{
+
+        margin-right: 3px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        padding: 0;
+        justify-content: center;
+    }
+
+    .botaotabela {
+        width: 60px;
+        height: 30px;
+        margin: 5px;
+        display: inline-block;
+        border: 2px solid black;
+        cursor: pointer;
+        font-size: 10px;
+        font-family: arial;
+    }
+
+    .tabela {
+        font-size: 12px;
+    }
+
+    .tabela th,
+    .tabela td {
+        padding: 6px;
+        text-align: center;
+        border-bottom: 2px solid black;
+    }
+
+}
